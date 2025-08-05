@@ -1,10 +1,13 @@
+import { Provider } from "react-redux";
+import { store } from "./store/store";
+import AppRouter from "./router/Approuter";
 import "./styles/global.scss";
 
 function App() {
   return (
-    <>
-      <p>todo</p>
-    </>
+    <Provider store={store}>
+      <AppRouter />
+    </Provider>
   );
 }
 

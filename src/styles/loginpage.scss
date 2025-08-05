@@ -1,0 +1,174 @@
+.login-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  background: blue;
+
+  &__container {
+    width: 100%;
+    max-width: 400px;
+  }
+
+  &__card {
+    background: white;
+    border-radius: 1rem;
+    padding: 2rem;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+      0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  }
+
+  &__header {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  &__title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: black;
+    margin: 0 0 0.5rem 0;
+  }
+
+  &__subtitle {
+    color: gray;
+    margin: 0;
+    font-size: 0.875rem;
+  }
+
+  &__demo {
+    background: white;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+
+  &__demo-text {
+    font-size: 0.875rem;
+    color: black;
+    margin: 0 0 0.5rem 0;
+    font-weight: 600;
+  }
+
+  &__demo-creds {
+    font-size: 0.75rem;
+    color: gray;
+    margin: 0;
+    line-height: 1.5;
+  }
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  &__field {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  &__label {
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: black;
+  }
+
+  &__input-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+
+  &__input-icon {
+    position: absolute;
+    left: 0.75rem;
+    color: gray;
+    z-index: 1;
+  }
+
+  &__input {
+    width: 100%;
+    padding: 0.75rem 0.75rem 0.75rem 2.5rem;
+    border: 1px solid gray;
+    border-radius: 0.5rem;
+    font-size: 0.875rem;
+    transition: all 0.2s ease;
+
+    &:focus {
+      outline: none;
+      border-color: purple;
+      box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.1);
+    }
+
+    &--error {
+      border-color: red;
+
+      &:focus {
+        border-color: red;
+        box-shadow: 0 0 0 3px rgba(221, 7, 7, 0.1);
+      }
+    }
+
+    &::placeholder {
+      color: gainsboro;
+    }
+  }
+
+  &__password-toggle {
+    position: absolute;
+    right: 0.75rem;
+    background: none;
+    border: none;
+    color: gray;
+    cursor: pointer;
+    padding: 0.25rem;
+    transition: color 0.2s ease;
+
+    &:hover {
+      color: blue;
+    }
+  }
+
+  &__error {
+    font-size: 0.75rem;
+    color: red;
+    margin-top: 0.25rem;
+  }
+
+  &__server-error {
+    border: 1px solid black;
+    color: white;
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+    font-size: 0.875rem;
+    text-align: center;
+    background-color: red;
+  }
+
+  &__submit {
+    width: 100%;
+    background: blue;
+    color: white;
+    padding: 0.875rem;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 0.875rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+
+    &:hover:not(:disabled) {
+      background: blue;
+      transform: translateY(-1px);
+    }
+
+    &:disabled {
+      opacity: 0.7;
+      cursor: not-allowed;
+    }
+  }
+}
