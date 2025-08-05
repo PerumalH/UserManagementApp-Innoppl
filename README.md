@@ -1,12 +1,6 @@
-# React + Vite
+## Commit 2 - 3:00 PM - 05 Aug/2025
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. **TechStack** - React , Javascript ,SCSS - For Styling, Redux toolKit - State Management, React router dom - for Navigation, React Hook Form - for handling form data at ease, lucide React - for icons.
+2. **Project Structure** - created the folders for respective context - components, pages, store, router, styles.
+3. **Initial Setup** - store for state and router for navigation.
+4. **Planning** - Login Page -> homepage with consist of three tabs -> dashboard[show the task details with total, pending, completed], Todo[add the task and edit/delete], profile[show the details of user] -> with one signout button -> in Header.
