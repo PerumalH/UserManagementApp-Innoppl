@@ -1,4 +1,4 @@
-## Commit 2 - 3:00 PM - 05 Aug/2025
+## Commit 2 - 3:04 PM - 05 Aug/2025
 
 1. **TechStack** - React , Javascript ,SCSS - For Styling, Redux toolKit - State Management, React router dom - for Navigation, React Hook Form - for handling form data at ease, lucide React - for icons.
 2. **Project Structure** - created the folders for respective context - components, pages, store, router, styles.
