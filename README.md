@@ -3,16 +3,23 @@
 Project SetUp - with Vite -> npm create vite@latest appName -- --template react
 
 to start the application:
+
 cd appName
+
 npm install
+
 npm run dev
 
 run at http://localhost:5173/.
 
 To Clone this Project:
+
 git clone https://github.com/PerumalH/UserManagementApp-Innoppl.git
+
 cd UserManagementApp-Innoppl
+
 npm install
+
 npm run dev
 
 run at http://localhost:5173/.
@@ -24,7 +31,18 @@ run at http://localhost:5173/.
 3. **Initial Setup** - store for state and router for navigation.
 4. **Planning** - Login Page -> homepage with consist of three tabs -> dashboard[show the task details with total, pending, completed], Todo[add the task and edit/delete], profile[show the details of user] -> with one signout button -> in Header.
 
-## Commit 3 - 6:30 PM - 05 Aug/2025
+## Commit 3 - 3:10 PM - 05 Aug/2025
+
+**ReadMe File** - Updating the tracking progress of each commit with details.
+
+## Commit 4 - 6:30 PM - 05 Aug/2025
 
 **Completed** : Login Page with Auth logic - user data stored in localstorage - Styling the page with BEM convention using scss, Routing with conditional navigation(redirect after login).
+
 **Next** : header page with tabs and logout functionality - ProtectedRouter for route guarding.
+
+## Commit 5 - 10:30 PM - 05 Aug/2025
+
+**Completed** : Header Page, tab switch, logout - Functionality and notfound page added without style[if we type unknown path after login - it'll redirect notfound page with goto-dashboard button] and ProtectedRouter for route guarding - and testing two scenario - before login and after login - even we manipulate the url - it doesn't redirect to page without login [Testing-successfully].
+
+**Next** : Core Functionality - Dashboard, Todo, Profile tabs.
