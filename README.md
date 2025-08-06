@@ -37,6 +37,14 @@ git clone https://github.com/PerumalH/UserManagementApp-Innoppl.git
 
 ## Commit 6 - 5:05 PM - 06 Aug/2025
 
-**Completed** : Todo tab with Styles - Features - add , delete , edit , filter - all, pending, complete - Functionality - store data on localStorage and persist after logout -> login - [Testing-successful].
+**Completed** : Todo tab with Styles - Features - add , delete , edit , filter - all, pending, complete - Functionality - store data on localStorage and persist after logout -> login - [Testing-successful]. - https://mdbootstrap.com/docs/react/extended/to-do-list/#! [Layout-Idea]
 
 **Next** : Dashboard , profile tabs - responsive design - Need to Improvise UI.
+
+## Commit 7 - 8:22 PM - 06 Aug/2025
+
+**Completed** : Profile Tab - style - edit option - with localstorage data - implement responsive design in Header component alone and style for notfoundpage - changed the routing.
+
+**Not Implemented** : Dashboard - why - idea behind - show the total task, complete task , pending task in the tab. but i implemented that feature in todo tab as well in filter section - it's repetition of work - so eliminate that tab.
+
+**Next** : need to add responsive for login , profile tab and improvise UI with colors.

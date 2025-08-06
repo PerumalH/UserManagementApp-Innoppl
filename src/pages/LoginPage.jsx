@@ -23,7 +23,7 @@ const LoginPage = () => {
 
   useEffect(() => {
     if (isAuthenticated) {
-      navigate("/dashboard", { replace: true });
+      navigate("/todos", { replace: true });
     }
   }, [isAuthenticated, navigate]);
 
@@ -35,7 +35,7 @@ const LoginPage = () => {
     const result = await dispatch(login(data));
     if (result.success) {
       reset();
-      navigate("/dashboard", { replace: true });
+      navigate("/todos", { replace: true });
     }
   };
 
@@ -55,7 +55,7 @@ const LoginPage = () => {
           <div className="login-page__demo">
             <p className="login-page__demo-text">Demo Credentials:</p>
             <p className="login-page__demo-creds">
-              <strong>Username:</strong> HpK <br />
+              <strong>Username:</strong> HPK <br />
               <strong>Password:</strong> PerumalHpk
             </p>
           </div>

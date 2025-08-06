@@ -12,7 +12,7 @@ import {
   selectTodoStats,
 } from "../store/slices/todoSlice";
 import { Plus } from "lucide-react";
-import TodoFilterOption from "../components/TodoFilteroption";
+import TodoFilterOption from "../components/TodoFilterOption";
 import TodoFilterList from "../components/TodoFilterList";
 import "../styles/todopage.scss";
 

@@ -17,20 +17,20 @@ const AppRouter = () => {
       children: [
         {
           index: true,
-          element: isAuthenticated ? <DashBoardPage /> : <LoginPage />,
+          element: isAuthenticated ? <TodoPage /> : <LoginPage />,
         },
         {
           path: "login",
           element: <LoginPage />,
         },
-        {
-          path: "dashboard",
-          element: (
-            <ProtectedRoute>
-              <DashBoardPage />
-            </ProtectedRoute>
-          ),
-        },
+        // {
+        //   path: "dashboard",
+        //   element: (
+        //     <ProtectedRoute>
+        //       <DashBoardPage />
+        //     </ProtectedRoute>
+        //   ),
+        // },
         {
           path: "profile",
           element: (

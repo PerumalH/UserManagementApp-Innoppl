@@ -62,7 +62,7 @@ export const { loginStart, loginSuccess, loginFailure, logout, clearError } =
 export const login = (credentials) => (dispatch) => {
   dispatch(loginStart());
   const { username, password } = credentials;
-  if (username === "HpK" && password === "PerumalHpk") {
+  if (username === "HPK" && password === "PerumalHpk") {
     const user = {
       id: 1,
       username: "HpK",

@@ -4,7 +4,7 @@
   align-items: center;
   justify-content: center;
   padding: 2rem;
-  background: blue;
+  background: rgb(57, 57, 138);
 
   &__container {
     width: 100%;
@@ -27,12 +27,12 @@
   &__title {
     font-size: 2rem;
     font-weight: 700;
-    color: black;
+    color: #4f46e5;
     margin: 0 0 0.5rem 0;
   }
 
   &__subtitle {
-    color: gray;
+    color: rgb(60, 57, 57);
     margin: 0;
     font-size: 0.875rem;
   }
@@ -54,7 +54,7 @@
 
   &__demo-creds {
     font-size: 0.75rem;
-    color: gray;
+    color: rgb(60, 57, 57);
     margin: 0;
     line-height: 1.5;
   }
@@ -114,7 +114,7 @@
     }
 
     &::placeholder {
-      color: gainsboro;
+      color: rgb(60, 57, 57);
     }
   }
 
