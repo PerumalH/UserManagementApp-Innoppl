@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { useForm } from "react-hook-form";
 import {
@@ -15,6 +15,7 @@ import { Plus } from "lucide-react";
 import TodoFilterOption from "../components/TodoFilterOption";
 import TodoFilterList from "../components/TodoFilterList";
 import "../styles/todopage.scss";
+import { useNavigate } from "react-router-dom";
 
 const TodosPage = () => {
   const dispatch = useDispatch();
@@ -22,6 +23,7 @@ const TodosPage = () => {
   const { filter } = useSelector((state) => state.todos);
   const filteredTodos = useSelector(selectFilteredTodos);
   const todoStats = useSelector(selectTodoStats);
+  const navigate = useNavigate();
 
   const [editingId, setEditingId] = useState(null);
   const [editText, setEditText] = useState("");
@@ -34,6 +36,10 @@ const TodosPage = () => {
     reset,
     formState: { errors },
   } = useForm();
+
+  useEffect(() => {
+    navigate("/todos");
+  }, []);
 
   const onSubmit = (data) => {
     console.log("Checking on submit data", data);

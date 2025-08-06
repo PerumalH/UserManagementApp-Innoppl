@@ -47,4 +47,10 @@ git clone https://github.com/PerumalH/UserManagementApp-Innoppl.git
 
 **Not Implemented** : Dashboard - why - idea behind - show the total task, complete task , pending task in the tab. but i implemented that feature in todo tab as well in filter section - it's repetition of work - so eliminate that tab.
 
-**Next** : need to add responsive for login , profile tab and improvise UI with colors.
+**Next** : need to add responsive for login , todos, profile tab and improvise UI with colors.
+
+## Commit 8 - 11:15 PM - 06 Aug/2025
+
+**Completed** : Login page- looks good even without mediaquery, added mediaquery to todos, profile tabs for responsive.and do some changes in colors - and deployed in netlify - https://todomanangement.netlify.app/
+
+**Next** : Need to do some testing and remove unnecessary code as a final touch.
