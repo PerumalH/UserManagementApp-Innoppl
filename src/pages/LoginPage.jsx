@@ -55,7 +55,7 @@ const LoginPage = () => {
           <div className="login-page__demo">
             <p className="login-page__demo-text">Demo Credentials:</p>
             <p className="login-page__demo-creds">
-              <strong>Username:</strong> Hpk <br />
+              <strong>Username:</strong> HpK <br />
               <strong>Password:</strong> PerumalHpk
             </p>
           </div>

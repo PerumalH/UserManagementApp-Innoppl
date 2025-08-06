@@ -4,25 +4,13 @@ Project SetUp - with Vite -> npm create vite@latest appName -- --template react
 
 to start the application:
 
-cd appName
-
-npm install
-
-npm run dev
-
-run at http://localhost:5173/.
+- cd appName -> npm install -> npm run dev -> run at http://localhost:5173/.
 
 To Clone this Project:
 
 git clone https://github.com/PerumalH/UserManagementApp-Innoppl.git
 
-cd UserManagementApp-Innoppl
-
-npm install
-
-npm run dev
-
-run at http://localhost:5173/.
+- cd UserManagementApp-Innoppl -> npm install -> npm run dev -> run at http://localhost:5173/.
 
 ## Commit 2 - 3:04 PM - 05 Aug/2025
 
@@ -43,6 +31,12 @@ run at http://localhost:5173/.
 
 ## Commit 5 - 10:30 PM - 05 Aug/2025
 
-**Completed** : Header Page, tab switch, logout - Functionality and notfound page added without style[if we type unknown path after login - it'll redirect notfound page with goto-dashboard button] and ProtectedRouter for route guarding - and testing two scenario - before login and after login - even we manipulate the url - it doesn't redirect to page without login [Testing-successfully].
+**Completed** : Header Page, tab switch, logout - Functionality and notfound page added without style[if we type unknown path after login - it'll redirect notfound page with goto-dashboard button] and ProtectedRouter for route guarding - and testing two scenario - before login and after login - even we manipulate the url - it doesn't redirect to page without login [Testing-successful].
 
 **Next** : Core Functionality - Dashboard, Todo, Profile tabs.
+
+## Commit 6 - 5:05 PM - 06 Aug/2025
+
+**Completed** : Todo tab with Styles - Features - add , delete , edit , filter - all, pending, complete - Functionality - store data on localStorage and persist after logout -> login - [Testing-successful].
+
+**Next** : Dashboard , profile tabs - responsive design - Need to Improvise UI.
