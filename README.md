@@ -1,3 +1,15 @@
+# Todo Management
+
+- A basic todo React app with login, profile update, and todo management features. Built using React, Redux Toolkit, SCSS, and React Hook Form.
+
+## Features
+
+- **Login:** Hardcoded auth with route protection
+- **Profile:** View and edit user details
+- **Todo List:** Add, edit, delete, filter tasks (All, Completed, Pending)
+- **Routing:** Protected routes for authenticated users
+- **Responsive UI:** Mobile layout
+
 ## Commit 1 - 1:55 PM - 05 Aug/2025
 
 Project SetUp - with Vite -> npm create vite@latest appName -- --template react
@@ -54,3 +66,11 @@ git clone https://github.com/PerumalH/UserManagementApp-Innoppl.git
 **Completed** : Login page- looks good even without mediaquery, added mediaquery to todos, profile tabs for responsive.and do some changes in colors - and deployed in netlify - https://todomanangement.netlify.app/
 
 **Next** : Need to do some testing and remove unnecessary code as a final touch.
+
+## Commit 9 - 9:30 AM - 07 Aug/2025
+
+**Two Issue** : Logout option not visible while switch to mobile device, Notfound page - button redirect to dashboard tab which is eliminate.
+
+**Issue Fixed** : Now, Logout is present on mobile device, change the route of button.
+
+**Completed** :Done - Testing, removed unnecessary code,

@@ -18,10 +18,10 @@ const NotFoundPage = () => {
           <div className="not-found__actions">
             <button
               className="not-found__button"
-              onClick={() => navigate("/dashboard")}
+              onClick={() => navigate("/todos")}
             >
               <Home size={20} />
-              Go to Dashboard
+              Go to Back
             </button>
           </div>
         </div>

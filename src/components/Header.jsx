@@ -73,6 +73,16 @@ const Header = () => {
             <User size={20} />
             <span>Profile</span>
           </button>
+          <button
+            className="header__logout header__logout--open"
+            onClick={handleLogout}
+          >
+            Welcome, {user?.username}
+            <LogOut size={20} />
+            <span className="header__logout-text header__logout--open">
+              Logout
+            </span>
+          </button>
         </nav>
 
         <div className="header__user">

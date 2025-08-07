@@ -28,8 +28,6 @@ const TodosPage = () => {
   const [editingId, setEditingId] = useState(null);
   const [editText, setEditText] = useState("");
 
-  console.log(user, filter, "Checking store data");
-
   const {
     register,
     handleSubmit,
@@ -42,7 +40,6 @@ const TodosPage = () => {
   }, []);
 
   const onSubmit = (data) => {
-    console.log("Checking on submit data", data);
     if (data.text.trim()) {
       dispatch(
         addTodo({
@@ -82,8 +79,6 @@ const TodosPage = () => {
 
   const handleFilterChange = (newFilter) => {
     dispatch(setFilter(newFilter));
-
-    console.log("after Filter", filter);
   };
 
   const handleClearCompleted = () => {

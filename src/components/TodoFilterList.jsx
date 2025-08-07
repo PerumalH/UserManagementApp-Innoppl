@@ -12,7 +12,6 @@ const TodoFilterList = ({
   saveEdit,
   startEdit,
 }) => {
-  console.log(filteredTodos, filter);
   return (
     <div className="todos-page__list">
       {filteredTodos.length === 0 ? (
